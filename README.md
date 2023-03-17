@@ -3,7 +3,7 @@
 
 Eu desenvolvi uma sequência de scripts para a criação de um banco de dados para a elaboração dos 6 exercícios referentes a essa semana. <br>
 
-Para visualizar o meu projeto, <a href="https://github.com/GeorgeEnriqueBravo/DEVinHouse-Modulo02-Semana06/archive/refs/heads/main.zip" target="_blank">
+Para visualizar o meu projeto, <a href="https://github.com/GeorgeEnriqueBravo/DEVinHouse-Modulo02-Semana07/archive/refs/heads/main.zip" target="_blank">
     clique aqui
 </a>
 para baixa-lo. <br>
@@ -19,37 +19,40 @@ Crie um banco de dados no seu servidor local chamado “escola”.
 
 Crie uma tabela para armazenar os dados de professores (nome, sobrenome, endereço, telefone, e-mail, data de nascimento, nacionalidade, etc.), outra para estudantes (nome, sobrenome, matrícula, e-mail, data de nascimento, nacionalidade, média geral, etc.) e outra para cursos (código, nome, se é EAD ou presencial, quem é o professor, número máximo de alunos, etc.).
 
-### [M2S06] Ex 2 - Funcionarios
+### [M2S07] Ex 2 - Tabela matrícula
 
-O sistema também deve ter uma forma de guardar os funcionários, esses devem ter o nome, um identificador, salário base, e o CPF desse funcionário.
+Crie uma tabela de ligação entre alunos e cursos, contendo o identificador do aluno, o identificador do curso e a média do aluno naquele curso.
 
-Lembrando que o campo salário deve ser numérico com 8 casas de unidade e 2 casas decimais.
+### [M2S07] Ex 3 - Chaves
 
-### [M2S06] Ex 3 - Clientes Fidelizados
+Crie chaves primárias para todas as tabelas existentes.
 
-Devemos guardar os clientes fidelizados, esses também devem ter um nome, um identificador, data de nascimento, tempo de fidelização, bônus de fidelidade.
+Crie chaves estrangeiras onde forem necessárias (dica: a coluna referente ao professor na tabela cursos).
 
-Ele também deve ter o nível de fidelidade:
+### [M2S07] Ex 4 - Inserção de dados
 
-- Normal
-- Gold
-- Platinum
-- Black
-- Infinity
+Insira pelo menos 3 registros em cada tabela (quanto mais, melhor).
 
-Essa fidelidade deve ser uma entidade separada com um id e o nome da fidelidade.
+Dica: Você pode utilizar este site para gerar dados: <a href="https://www.4devs.com.br/gerador_de_pessoas" target="_blank">
+    Gerador de documentos de pessoas (Nome, RG, CPF, CEP, Endereço, etc) - 4Devs
+</a>
 
-### [M2S06] Ex 4 - Relacionamentos
+### [M2S07] Ex 5 - Manipulando registros
 
-Vamos adicionar uma chave estrangeira de vendendor em produto. Nesse relacionamento devemos ter uma classes de Venda, que irá receber o id do produto e do vendedor e a quantidade de produtos vendidos.
+Atualize a informação de média geral de um aluno.
 
-### [M2S06] Ex 5 - Endereço Cliente
+Atualize os cursos cujos professores não moram em Santa Catarina para o modelo EAD.
 
-Vamos adicionar mais detalhes ao cliente fidelizado, adicione as informações de endereço a entidade de Cliente Fidelizado. Devemos ter a informação do logradouro do cliente, numero, estado e cidade.
+Exclua um curso.
 
-### [M2S06] Ex 6 - Normalização Cliente
+### [M2S07] Ex 6 - Consultas
 
-Realizar a normalização na classe de Cliente. - Devemos ter uma entidade Endereço após a normalização.
+1. Busque os cursos que possuem número máximo de alunos maior do que 30 e que sejam presenciais.
+2. Busque os professores nascidos na América do Sul.
+3. Busque os alunos cujos nomes comecem com a letra J.
+4. Busque os alunos com a média geral maior do que 7, ordenando do maior para o menor.
+5. Busque por todos os cursos ministrados por professoras.
+6. Busque por todos os alunos que estão matriculados em cursos EAD.
 
 ---
 
