@@ -8,7 +8,9 @@ Para visualizar o meu projeto, <a href="https://github.com/GeorgeEnriqueBravo/DE
 </a>
 para baixa-lo. <br>
 
-Após o download, descompacte o arquivo baixado e abra em seu navegador o site `https://app.diagrams.net/` e escolha a opção de "Abrir diagrama existente". Depois selecione o arquivo "ExerciciosM02S06.drawio" localizado dentro da pasta "ExerciciosM02S06" que foi descompactada no arquivo baixado.
+Após o download, extraia os arquivos zipados e abra o arquivo `exercicios_MODULO02_SEMANA07` localizado na pasta ExerciciosM02S07 utilizando o `Oracle SQL Develover`. Caso você não possua ele, você pode baixar ele grátis diretamente do site oficial <a href="https://www.oracle.com/database/sqldeveloper/technologies/download/" target="_blank">
+    clicando aqui
+</a>.
   
 ---
 
