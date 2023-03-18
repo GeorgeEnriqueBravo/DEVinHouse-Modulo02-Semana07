@@ -8,7 +8,7 @@ Para visualizar o meu projeto, <a href="https://github.com/GeorgeEnriqueBravo/DE
 </a>
 para baixa-lo. <br>
 
-Após o download, extraia os arquivos zipados e abra o arquivo `exercicios_MODULO02_SEMANA07` localizado na pasta ExerciciosM02S07 utilizando o `Oracle SQL Develover`. Caso você não possua ele, você pode baixar ele grátis diretamente do site oficial <a href="https://www.oracle.com/database/sqldeveloper/technologies/download/" target="_blank">
+Após o download, extraia os arquivos zipados e abra o arquivo `exercicios_MODULO02_SEMANA07.sql` localizado na pasta ExerciciosM02S07 utilizando o `Oracle SQL Develover`. Caso você não possua ele, você pode baixar ele grátis diretamente do site oficial <a href="https://www.oracle.com/database/sqldeveloper/technologies/download/" target="_blank">
     clicando aqui
 </a>.
   
